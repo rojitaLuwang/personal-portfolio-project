@@ -8,3 +8,12 @@ setInterval(() => {
     var textTime = time.toLocaleTimeString();
     document.getElementById("displayTime").innerHTML = textTime;
   }, 1000);
+
+  function changeImage(){
+      let imageSource = document.getElementById("potrait");
+      if(imageSource.src === "./resources/images/flower.jpg"){
+          imageSource.src = "./resources/images/potrait.jpg"
+      }else if(imageSource.src != "./resources/images/flower.jpg"){
+          imageSource.src = "./resources/images/flower.jpg";
+      }
+  }
