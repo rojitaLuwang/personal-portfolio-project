@@ -1,0 +1,100 @@
+html, body {
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+header h1 {
+    font-weight: 900;
+    letter-spacing: 0.3rem;
+}
+
+nav {
+    list-style-type: none;
+    padding-right: .8em;
+}
+
+header li {
+    display:inline;
+    padding: 1em;
+    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color:darkviolet;
+}
+
+a:hover {
+    color: green;
+}
+
+#date, #time {
+    font-weight: 600;
+    color:darkviolet;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.about-info-left, .about-info-right {
+    flex: 50%;
+    padding: .5rem;
+}
+
+.image-container {
+    padding: 3rem 0;
+}
+
+h1, h2 {
+    text-decoration: underline;
+}
+
+.project-name {
+    font-weight: 600;
+}
+
+.project-detail, .project-tech {
+    font-family: Georgia, Cambria;
+}
+
+.project-tech {
+    font-style: italic;
+}
+
+button {
+    height: 3rem;
+    width: 4rem;
+}
+
+.contactIdea {
+    font-style: italic;
+    font-weight: 500;
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
