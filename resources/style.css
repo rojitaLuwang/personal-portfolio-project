@@ -81,6 +81,11 @@ h1, h2 {
     font-style: italic;
 }
 
+.project img {
+    width: 30%;
+    height: 200px;
+}
+
 button {
     height: 3rem;
     width: 4rem;
