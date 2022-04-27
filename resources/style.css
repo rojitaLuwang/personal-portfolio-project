@@ -18,8 +18,6 @@ header {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    top: 0;
-    left: 0;
     margin: auto;
 }
 header h1 {
@@ -48,6 +46,18 @@ a:hover {
     color: green;
 }
 
+@media only screen and (max-width: 600px){
+    header {
+        flex-wrap: wrap;
+    }
+
+    header li {
+        padding: .5em;
+        letter-spacing: 0.1rem;
+        font-size: 1rem;
+    }
+}
+
 #date, #time {
     font-weight: 600;
     color:darkviolet;
@@ -68,6 +78,21 @@ a:hover {
 
 .image-container img {
     border-radius: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .flex-container {
+        flex-wrap: wrap;
+    }
+    
+    .about-info-left, .about-info-right {
+        flex: 100%;
+    }
+
+    .image-container {
+        padding: 1.5rem 0;
+    }
 }
 
 h1, h2 {
